@@ -4,7 +4,7 @@ author: 'Andrew Wason'
 inputs:
   server:
     description: 'IRC server'
-    default: 'irc.libera.chat'
+    default: 'irc.oftc.net'
     required: true
   port:
     description: 'IRC server port'
@@ -14,19 +14,19 @@ inputs:
     description: 'IRC server password'
     required: false
   channel:
-    description: 'IRC channel to message'
+    description: '#siduction-core'
     required: true
   channel_key:
     description: 'IRC channel password'
     required: false
   nickname:
-    description: 'IRC user nickname'
+    description: 'github'
     required: true
   sasl_password:
     description: 'IRC user SASL password'
     required: false
   message:
-    description: 'Message to send'
+    description: 'Noticed a change on github '
     required: true
   notice:
     description: 'Use NOTICE instead of PRIVMSG'
